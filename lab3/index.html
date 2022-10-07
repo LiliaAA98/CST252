@@ -5,7 +5,47 @@
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
+<style>
+	body{
+		background-color: cyan;
+	}
+	div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
 <body>
-
+	<div>
+<h1> Lilia Alvarez</h1>
+<h3> Pronouns: She/Her</h3>
+</div>
+<p> A really short paragraph describing the task you picked from part 1 </p>
+<p> The task we decided to go with is a mirror simulator, where participants can place cubes on either side of a bar(mirror), and it reflects the cubes an equal distance on the other side.</p>
+<h2> Part one Answers</h2>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+<ol> What actions can I take? </ol>
+<li> Placing cubes </li>
+<li> moving the mirror up and down </li>
+<ol> What do I need to remember or keep track of?</ol>
+<li> Keep track of the coordinates of the cube</li>
+<li>Keep track of all the cubes placed</li>
+<li>Keep track of the coordinates of the bar </li>
+<ol>What do I do over and over again?</ol>
+<li>Check for new cubes placed</li>
+<li>Keep track of all the cubes placed</li>
+<ol>When do I need to make decisions?</ol>
+<li>Where on the y-axis the mirror is</li>
+<li>Have to make the decision to subtract or add twice the distance between the cube and the mirror</li>
+<h1> Pseudocode  Steps</h1>
+<li>Check position of mirror on the y-axis</li>
+<li> Set cubes on screen, and check position of the cube that is placed</li>
+<li>Keep track of the x-axis of the cube(it’s the same in the reflection)</li>
+<li>Check distance between the cube and the mirror</li>
+<li>If on top, subtract double the distance of the cube’s y-axis from the y-axis of the mirror. Add double if placed below</li>
+<li>Add that value to the y-axis of the reflection (which should already have the x-axis from step 3)
+</li>
 </body>
 </html>
